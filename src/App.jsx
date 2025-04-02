@@ -167,7 +167,7 @@ const CarPricePrediction = () => {
         </form>
         {prediction !== null && (
           <div className="mt-4 p-4 bg-green-100 text-green-800 text-center rounded-lg">
-            Estimated Price: <span className="font-bold">${prediction}</span>
+            Estimated Price: <span className="font-bold">PKR {prediction*3.2749}</span>
           </div>
         )}
       </div>
